@@ -1,0 +1,103 @@
+body {
+	font-family: sans-serif;
+	margin: 5%;
+}
+body strong {
+	font-family: sans-serif;
+	color: #aaaaff
+	
+}
+
+h2 {
+	color: #000080;
+}
+
+p {
+	white-space: pre-line;
+	overflow: hidden;
+}
+
+form legend {
+	padding: 5px;
+	font-weight: bold;
+	color: #036;
+	background-color: #f2f2f2;
+	border: 1px solid #e1e1e1;
+	font-size: 80%;
+}
+
+form label {
+   font-weight: bold;
+   color: #033;
+   float: left;
+   width: 150px;
+   font-size: 80%;
+  }
+
+.botao{
+   color: #111faa;
+   border-radius: 25px; 
+   font-size: 25px;
+
+}  
+
+form input[type="text"]{
+	background-color: #ccc;
+	border: 1px solid #666;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+form input[type="text"]:hover{
+	background-color: #999;
+	border: 1px solid #000;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+form input[type="text"]:focus{
+	background-color: #e1e1e1;
+	border: 1px solid #333;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+form textarea{
+	background-color: #ccc;
+	border: 1px solid #666;
+	padding: 5px;
+	margin-bottom: 5px;
+
+}
+
+form textarea:hover{
+	background-color: #999;
+	border: 1px solid #000;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+form textarea:focus{
+	background-color: #e1e1e1;
+	border: 1px solid #333;
+	padding: 2%;
+	margin-bottom: 5px;
+}
+
+/*Dados do usuario*/
+
+.dadosUsuario{
+	width: 96%;
+	height: auto;
+	padding: 2%;
+}
+.foto{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #333;
+    padding: 0.1%;
+    margin: 1%;
+   
+}
